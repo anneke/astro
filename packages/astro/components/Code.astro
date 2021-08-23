@@ -1,0 +1,9 @@
+---
+import shiki from 'shiki';
+
+const { code, lang = 'plaintext', theme = 'nord' } = Astro.props;
+
+const highlighter = await shiki.getHighlighter({theme});
+const html = highlighter.codeToHtml(code, lang);
+---
+{html}
