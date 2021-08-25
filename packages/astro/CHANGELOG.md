@@ -1,5 +1,12 @@
 # astro
 
+## 0.19.5
+
+### Patch Changes
+
+- Updated dependencies [397d8f3d]
+  - @astrojs/markdown-support@0.3.0
+
 ## 0.19.4
 
 ### Patch Changes
